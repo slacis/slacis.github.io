@@ -120,7 +120,7 @@ textarea {
 
 .highlight-word {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
-    color: #a1db6d;
+    color: #53b444;
 }
 
 .gradient-strip {
@@ -170,7 +170,7 @@ textarea {
 .project-click {
 }
 .project-click:hover > .recent-projects-element {
-    color: #a1db6d;
+    color: #53b444;
 }
 .recent-projects-element {
     -o-transition:.5s;
