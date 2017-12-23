@@ -132,15 +132,26 @@ textarea {
 }
 
 .logo {
-    margin: 2em 0 0 0;
+    margin: 1em 0 0 0;
 }
 
 .title, .contacts {
-    padding: 2em 0em 2em 0em;
+    padding: 1em 0em 0em 0em;
     font-weight: 200;
     font-size: 3em;
     font-family: 'Libre Baskerville', serif;
     /*width:60%*/
+}
+
+.introduction {
+    font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
+    padding: 0 0em 4em 0em;
+    font-weight: 100;
+}
+
+.no-padding {
+    padding: 0;
 }
 
 .contacts {
@@ -164,6 +175,10 @@ textarea {
 
 .hr-no-margin-top {
     margin-top: 0;
+}
+
+.hr-no-margin-bottom {
+    margin-top: 0.5em 0;
 }
 
 /* Hover to change color*/
