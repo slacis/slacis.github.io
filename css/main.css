@@ -177,9 +177,10 @@ textarea {
     margin-top: 0;
 }
 
-.hr-no-margin-bottom {
-    margin-top: 0.5em 0;
+.add-margin-top {
+    margin-top: 0.5em;
 }
+
 
 /* Hover to change color*/
 .project-click {
@@ -353,8 +354,15 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 375px) {
+    .title {
+        font-size: 2.8em;
+    }
+}
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+
 }
 
 @media print,
