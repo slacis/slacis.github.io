@@ -65,8 +65,11 @@
         no-repeat;
 }
 @media only screen and (max-width: 375px) {
+    .bounce {
+        visibility: hidden;
+    }
     .arrow-graphic {
-        display: none;
+        visibility: hidden;
     }
 }
 
