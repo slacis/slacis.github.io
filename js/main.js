@@ -21,3 +21,15 @@ $("#contacts").click(function() {
         scrollTop: $(".contacts").offset().top
     }, 1000);
 });
+
+// Bouncing arrow fade out
+$(window).scroll(function() {
+    if ($(this).scrollTop()>0)
+    {
+        $('.arrow-graphic').fadeOut();
+    }
+    else
+    {
+        $('.arrow-graphic').fadeIn();
+    }
+});

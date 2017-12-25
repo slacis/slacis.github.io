@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/downarrow.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -50,15 +51,37 @@
     <!--<div class="gradient-strip"></div>-->
     <div class="row">
         <div class="col-lg-1"></div>
-        <div class="col-lg-9 col-xs-12">
+        <div class="col-lg-11 col-xs-12">
             <div class="title">
                 I'm Simon, nice to meet you.
-                <div class="col-lg-9 no-padding">
-                    <hr class="add-margin-top">
+                <div class="col-lg-12  no-padding">
+                    <div class="col-lg-8">
+                        <hr class="add-margin-top">
+                    </div>
                 </div>
             </div>
-            <div class="introduction col-lg-9">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 col-xs-12">
+            <div class="introduction">
                 <span>I'm a graduate <span class="highlight-word"> web developer</span> from Melbourne, Australia.</span>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="col-lg-12">
+                <a target="_blank" href="https://www.linkedin.com/in/simonlacis/">
+                    <img class="img-fluid" src="./img/logos/In-Black-66px-R.png"/>
+                </a>
+                <a target="_blank" href="https://github.com/slacis/">
+                    <img class="img-fluid" src="./img/logos/GitHub-Mark-64px.png"/>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-1">
+            <div class="bounce">
+                <span class="arrow-graphic"></span>
             </div>
         </div>
     </div>
@@ -80,34 +103,34 @@
             <span class="recent-projects-element">Dilemmas (2017)</span>
             <div class="recent-projects-content">
                 <div class="row">
-                <div class="col-lg-6 recent-projects-text">
-                    <p>Mobile App for iOS and Android using Ionic framework.</p>
-                    <p>Ever find yourself struggling to decide what food to eat? Which clothes to wear?
-                        Struggle no more. With Dilemmas, you can put your problem forth and have your peers vote
-                        on how to resolve your dilemma!</p>
-                    <p><strong>Features:</strong>
+                    <div class="col-lg-6 recent-projects-text">
+                        <p>Mobile App for iOS and Android using Ionic framework.</p>
+                        <p>Ever find yourself struggling to decide what food to eat? Which clothes to wear?
+                            Struggle no more. With Dilemmas, you can put your problem forth and have your peers vote
+                            on how to resolve your dilemma!</p>
+                        <p><strong>Features:</strong>
                         <ul>
                             <li>'Infrastructure-free' backend using AWS</li>
                             <li>Mobile Multi-platform support using Ionic</li>
                             <li>Filter 'dilemmas' based on user friendship</li>
                         </ul>
-                    </p>
-                    <i class="devicon-amazonwebservices-plain-wordmark colored devicon"></i>
-                    <i class="devicon-angularjs-plain colored devicon"></i>
-                    <i class="icon ion-ios-ionic-outline ionic-icon"></i>
-                    <i class="devicon-python-plain-wordmark colored devicon"></i>
-                    <i class="devicon-mysql-plain-wordmark colored devicon"></i>
-                    <i class="devicon-android-plain-wordmark colored devicon"></i>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <a class="text-center" href="http://dilemma-app-demo.s3-website-us-east-1.amazonaws.com/" target="_blank">
-                        <img class="img-fluid" style="border-bottom: 1px solid lightgray" src="./img/dilemmas-small.png"/>
-                        <p class="add-margin-top">View Live Demo</p>
-                    </a>
-                    <p><a href="https://s3.amazonaws.com/dilemma-app-demo/apk/dilemmas.apk" target="_blank">Download APK (Unsigned)</a></p>
-                    <a href="https://github.com/slacis/dilemmas" target="_blank">View Github Repo</a>
+                        </p>
+                        <i class="devicon-amazonwebservices-plain-wordmark colored devicon"></i>
+                        <i class="devicon-angularjs-plain colored devicon"></i>
+                        <i class="icon ion-ios-ionic-outline ionic-icon"></i>
+                        <i class="devicon-python-plain-wordmark colored devicon"></i>
+                        <i class="devicon-mysql-plain-wordmark colored devicon"></i>
+                        <i class="devicon-android-plain-wordmark colored devicon"></i>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <a class="text-center" href="http://dilemma-app-demo.s3-website-us-east-1.amazonaws.com/" target="_blank">
+                            <img class="img-fluid" style="border-bottom: 1px solid lightgray" src="./img/dilemmas-small.png"/>
+                            <p class="add-margin-top">View Live Demo</p>
+                        </a>
+                        <p><a href="https://s3.amazonaws.com/dilemma-app-demo/apk/dilemmas.apk" target="_blank">Download APK (Unsigned)</a></p>
+                        <a href="https://github.com/slacis/dilemmas" target="_blank">View Github Repo</a>
 
-                </div>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -122,8 +145,8 @@
                     <div class="col-lg-6 recent-projects-text">
                         <p>Recipe scraper Web App for recipes developed using MEAN stack</p>
                         <p>Do you find it hard to keep track of multiple recipes from popular sites?
-                        Do you ever make changes to the recipes you use but forget the amount of ingredients
-                        that work best for you? Forking Great Recipes is a recipe scraper that scrapes the content
+                            Do you ever make changes to the recipes you use but forget the amount of ingredients
+                            that work best for you? Forking Great Recipes is a recipe scraper that scrapes the content
                             from popular recipe websites and adds them to your own person/editable page.</p>
 
                         <p><strong>Features:</strong>
@@ -161,8 +184,8 @@
                     <div class="col-lg-6 recent-projects-text">
                         <p>A Simple portfolio page built with HTML5, CSS, Bootstrap and jQuery</p>
                         <p>This is the github repository for my portfolio. It's a very simple page
-                        built without using fancy frameworks. It's hosted by Github Pages
-                        with SSL encryption provided by Cloudflare, both of which were available at no cost.</p>
+                            built without using fancy frameworks. It's hosted by Github Pages
+                            with SSL encryption provided by Cloudflare, both of which were available at no cost.</p>
                         <p><strong>Features:</strong>
                         <ul>
                             <li>Responsive Design</li>
@@ -232,31 +255,31 @@
         </div>
     </div>
 
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-9 col-xs-12">
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-default">
-            <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
-            <!--<span class="navbar-toggler-icon"></span>-->
-            <!--</button>-->
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9 col-xs-12">
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-default">
+                <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <!--</button>-->
 
-            <!--<div class="collapse navbar-collapse">-->
-            <!--<div class="collapse navbar-collapse">-->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/simonlacis/">Linkedin <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/slacis/">Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mailto: s.lacis11@gmail.com">Email</a>
-                </li>
-            </ul>
-            <!--</div>-->
-        </nav>
+                <!--<div class="collapse navbar-collapse">-->
+                <!--<div class="collapse navbar-collapse">-->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/simonlacis/">Linkedin <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/slacis/">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto: s.lacis11@gmail.com">Email</a>
+                    </li>
+                </ul>
+                <!--</div>-->
+            </nav>
+        </div>
     </div>
-</div>
 </div>
 </div>
 <!--<div class="container-fluid">-->
