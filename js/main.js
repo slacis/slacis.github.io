@@ -10,7 +10,7 @@ $(document).ready(function(){
 });
 
 // Buttons
-$("#projects").click(function() {
+$(".projects").click(function() {
     $('html, body').animate({
         scrollTop: $(".recent-projects-area").offset().top
     }, 1000);
