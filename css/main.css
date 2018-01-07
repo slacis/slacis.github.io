@@ -538,8 +538,12 @@ textarea {
 }
 
 .recent-projects-text {
-    padding-top: 2.2em;
-    font-size: 1.0em;
+    padding-top: 1.2em;
+    font-size: 1.2em;
+}
+
+.footer-menu {
+    padding-bottom:1em;
 }
 
 .image-round {
@@ -602,7 +606,13 @@ textarea {
     }
 
     .navbar-default {
+        padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .nav-link {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
     }
 
     .bounce {
