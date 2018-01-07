@@ -447,7 +447,7 @@ textarea {
 */
 
 .highlight-word {
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.05);
     color: #53b444;
 }
 
@@ -465,15 +465,15 @@ textarea {
 
 .title, .contacts {
     padding: 1em 0em 0em 0em;
-    font-weight: 200;
-    font-size: 3em;
-    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 3.2em;
+    font-family: 'Raleway', sans-serif;
     /*width:60%*/
 }
 
 .introduction {
-    font-size: 2em;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
     padding-bottom: 4em;
     font-weight: 100;
 }
@@ -497,8 +497,8 @@ textarea {
 .recent-projects-title {
     display: inline-block;
     padding: 2em 0 0.5em 0;
-    font-family: 'Glegoo', serif;
-    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4em;
 }
 
 .hr-no-margin-top {
@@ -526,9 +526,9 @@ textarea {
 
 .recent-projects-element, .recent-projects-content {
     display: inline-block;
-    padding: 1em 0 0em 0;
-    font-family: 'Glegoo', serif;
-    font-size: 2.0em;
+    padding: 0.5em 0 0em 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1em;
 }
 
 .recent-projects-content {
@@ -538,7 +538,8 @@ textarea {
 }
 
 .recent-projects-text {
-    padding-top: 2em;
+    padding-top: 2.2em;
+    font-size: 1.0em;
 }
 
 .image-round {
@@ -586,22 +587,50 @@ textarea {
    ========================================================================== */
 
 @media only screen and (max-width: 390px) {
-    .title {
-        font-size: 2.8em;
+    .title, .contacts {
+        font-size: 2.2em;
+        padding-top: 0.4em;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .introduction {
+        font-size: 1.5em;
+        padding-bottom: 1em;
+    }
+
+    .navbar-default {
+        padding-bottom: 0;
     }
 
     .bounce {
         visibility: hidden;
     }
     .arrow-graphic {
-        visibility: hidden;
+        /*visibility: hidden;*/
+    }
+
+    .recent-projects-area {
+        padding-bottom: 2em;
+    }
+
+    .recent-projects-title {
+        padding-top: 1em;
+        font-size: 2.2em;
+    }
+
+    .recent-projects-element {
+        font-size: 1.5em;
+        padding-top: 0.3em;
     }
 }
 
 @media screen and (min-width: 1500px) {
     .introduction {
         padding: 0 0em 6em 0em;
-        font-size: 2.5em;
+        font-size: 2.8em;
         /*width: 50%;*/
     }
     .logo {
@@ -609,8 +638,27 @@ textarea {
     }
 
     .title {
-        font-size: 3.5em;
+        font-size: 3.8em;
     }
+
+    .recent-projects-title {
+        font-size: 2.8em;
+    }
+
+    .recent-projects-element, .recent-projects-content {
+        font-size: 2.5em;
+    }
+
+    .recent-projects-content {
+        font-size: 1.0em;
+    }
+
+    .recent-projects-text {
+        font-size: 1.4em;
+    }
+
+
+
 }
 
 
